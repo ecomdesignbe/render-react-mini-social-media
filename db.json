@@ -12,6 +12,12 @@
       "nomUtilisateur": "Mario Bros",
       "mailUtilisateur": "mario@google.be",
       "motDePasse": "123456"
+    },
+    {
+      "id": "1767",
+      "nomUtilisateur": "Test303",
+      "mailUtilisateur": "test@test.com",
+      "motDePasse": "123456"
     }
   ],
   "publications": [
@@ -50,6 +56,15 @@
       "datePublication": "2024-08-16T22:51:21.880Z",
       "likePublication": 0,
       "auteur": "Mario Bros"
+    },
+    {
+      "id": "594b",
+      "textePublication": "Hello my name is Test ... Jaimes TesT",
+      "imagePublication": "https://img.freepik.com/vecteurs-libre/illustration-devops-dessinee-main_23-2149398796.jpg?t=st=1723849863~exp=1723853463~hmac=8e6270d4b2756c148e07810e4ca2faa6713e1e06c08c597a62cf4e2f6dcc3ecd&w=740",
+      "idUtilisateur": "1767",
+      "datePublication": "2024-08-16T23:11:14.681Z",
+      "likePublication": 0,
+      "auteur": "Test303"
     }
   ]
 }
