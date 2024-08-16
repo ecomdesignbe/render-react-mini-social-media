@@ -1,0 +1,55 @@
+{
+  "utilisateurs": [
+    {
+      "id": "4a04",
+      "nomUtilisateur": "Steve",
+      "mailUtilisateur": "steve@ecomdesign.be",
+      "motDePasse": "azerty",
+      "motDePasseConfirmation": "azerty"
+    },
+    {
+      "id": "7aab",
+      "nomUtilisateur": "Mario Bros",
+      "mailUtilisateur": "mario@google.be",
+      "motDePasse": "123456"
+    }
+  ],
+  "publications": [
+    {
+      "id": "2c63",
+      "textePublication": "Hello Ca Farteeeeeeeeee",
+      "imagePublication": "https://img.freepik.com/photos-gratuite/codage-programme-informatique-ecran_53876-138060.jpg?t=st=1723847049~exp=1723850649~hmac=647de14e80678e76ef38e55b96490f593853de4acda99c843af69caf1c55434e&w=996",
+      "idUtilisateur": "4a04",
+      "datePublication": "2024-08-16T22:24:40.747Z",
+      "likePublication": 0,
+      "auteur": "Steve"
+    },
+    {
+      "id": "0278",
+      "textePublication": "Yeppppaaaaaaaaaaaa",
+      "imagePublication": "https://img.freepik.com/photos-gratuite/allume-ordinateur-portable-gris_400718-47.jpg?t=st=1723847162~exp=1723850762~hmac=eab32ed9810c4c0b00db7ce502c5b742813f2e19edd6571510f14b26c371b511&w=1380",
+      "idUtilisateur": "4a04",
+      "datePublication": "2024-08-16T22:26:15.979Z",
+      "likePublication": 0,
+      "auteur": "Steve"
+    },
+    {
+      "id": "73f9",
+      "textePublication": "Olé lé Oh la la qui ne sautent pas n'est pas Bruxellois :)",
+      "imagePublication": "https://www.lalibre.be/resizer/Ia34wpX8BnuR4E18dfQQyJO-nbc=/arc-photo-ipmgroup/eu-central-1-prod/public/4DO47GYWCRALPF5UPGAVORVPEE.jpg",
+      "idUtilisateur": "4a04",
+      "datePublication": "2024-08-16T22:31:34.076Z",
+      "likePublication": 0,
+      "auteur": "Steve"
+    },
+    {
+      "id": "2b35",
+      "textePublication": "It's me mariooooooooooooooo",
+      "imagePublication": "https://www.nintendo.com/eu/media/images/10_share_images/portals_3/2x1_SuperMarioHub_image1600w.jpg",
+      "idUtilisateur": "7aab",
+      "datePublication": "2024-08-16T22:51:21.880Z",
+      "likePublication": 0,
+      "auteur": "Mario Bros"
+    }
+  ]
+}
