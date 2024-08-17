@@ -6,6 +6,7 @@ Project  Mini Social Media
 - React Hot Toast
 - React QUERY + DevTools
 - Material UI
-- JSON Server
+- JSON Server > https://render-json-server-cqh4.onrender.com/
 - Axios
 
+NB: Verify if my JSON server is online :) 
