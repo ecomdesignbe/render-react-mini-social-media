@@ -22,7 +22,8 @@ export default function Connexion() {
   
   const onSubmit = (data) => {
     axios
-        .get(`http://localhost:3000/utilisateurs?mailUtilisateur=${data.mailUtilisateur}&motDepasse=${data.motDePasse}`)
+        .get(`https://render-json-server-cqh4.onrender.com/utilisateurs?mailUtilisateur=${data.mailUtilisateur}&motDepasse=${data.motDePasse}`)
+        // .get(`http://localhost:3000/utilisateurs?mailUtilisateur=${data.mailUtilisateur}&motDepasse=${data.motDePasse}`)
         .then (res => {
           if(res.data.length > 0) {
             localStorage.setItem('utilisateur', JSON.stringify(res.data[0]))

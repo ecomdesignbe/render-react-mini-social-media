@@ -20,7 +20,8 @@ export default function AjouterPublication() {
 
     const mutation = useMutation({
         mutationFn: (publi) => {
-            return axios.post('http://localhost:3000/publications', publi)
+            return axios.post('https://render-json-server-cqh4.onrender.com/publications', publi)
+            // return axios.post('http://localhost:3000/publications', publi)
         },
         onError: (error) => {
             toast.error('Une erreur est survenue')

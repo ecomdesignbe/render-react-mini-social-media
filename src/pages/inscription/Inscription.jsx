@@ -18,15 +18,17 @@ export default function Inscription() {
       toast.error('Les mots de passe ne correspondent pas');
     } else {
       // Vérification si l'email existe déjà
-      axios
-        .get(`http://localhost:3000/utilisateurs?mailUtilisateur=${data.mailUtilisateur}`)
+      axios 
+        .get(`https://render-json-server-cqh4.onrender.com/utilisateurs?mailUtilisateur=${data.mailUtilisateur}`)
+        // .get(`http://localhost:3000/utilisateurs?mailUtilisateur=${data.mailUtilisateur}`)
         .then((res) => {
           if (res.data.length > 0) {
             toast.error('Cet email est déjà utilisé');
           } else {
             // Création du nouvel utilisateur
             axios
-              .post('http://localhost:3000/utilisateurs', {
+              .post('https://render-json-server-cqh4.onrender.com/utilisateurs', {
+              // .post('http://localhost:3000/utilisateurs', {
                 nomUtilisateur: data.nomUtilisateur,
                 mailUtilisateur: data.mailUtilisateur,
                 motDePasse: data.motDePasse,

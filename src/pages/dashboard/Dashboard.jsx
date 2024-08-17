@@ -26,8 +26,9 @@ export default function Dashboard() {
     isLoading 
   } = useQuery({
     queryKey : ['publications'],
-    queryFn: () => axios
-      .get('http://localhost:3000/publications')
+    queryFn: () => axios 
+      .get('https://render-json-server-cqh4.onrender.com/publications')
+      // .get('http://localhost:3000/publications')
       .then((res) => res.data),
       onerror : (error) => console.log(error)
 

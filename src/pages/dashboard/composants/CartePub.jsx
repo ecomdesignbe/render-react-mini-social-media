@@ -11,8 +11,9 @@ export default function CartePub({ publication }) {
 
     const useQuery = useQueryClient()
     const mutation = useMutation({
-        mutationFn: (id) => {
-            return axios.delete(`http://localhost:3000/publications/${id}`)
+        mutationFn: (id) => { 
+            return axios.delete(`https://render-json-server-cqh4.onrender.com/publications/${id}`)
+            // return axios.delete(`http://localhost:3000/publications/${id}`)
         },
         onError: (error) => {
             toast.error('Une erreur est survenue')
