@@ -29,7 +29,7 @@ export default function Navbar() {
 
     const deconnexion = () => {
         localStorage.removeItem('utilisateur')
-        window.location.replace('/connexion')
+        window.location.replace('/')
     }
 
     return (
